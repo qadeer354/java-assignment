@@ -1,0 +1,15 @@
+#mainDiv{
+    text-align: center !important;
+    padding: 10 auto !important;
+}
+#mainDiv div{
+    display: inline-block;
+    width: 300PX !important;
+    border: 2px solid green;
+}
+img{
+    width: 200px !important;
+}
+p{
+    width: 100px !important;
+}

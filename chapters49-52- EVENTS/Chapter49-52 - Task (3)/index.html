@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <form action="#" id="myform"> 
+        <label for="id">Id</label>
+         <input type="text" id="id"> 
+         <label for="name">Name</label>
+          <input type="text" id="name"> 
+          <label for="class">Class</label>
+           <input type="text" id="class">
+            <button onclick="insertData();">Submit</button> </form> 
+    <table id="students"> <tr id="headings"> 
+        <th>indexs</th> <th>name</th> <th>class</th> 
+    </tr>
+    <tr><td>1</td><td>shaheryar</td><td>10</td><td><button onclick="remove(this);">Delete</button></td><td><button onclick="edit(this);">Edit</button></td></tr><tr><td>2</td><td>hussain</td><td>7</td><td><button onclick="remove(this);">Delete</button></td><td><button onclick="edit(this);">Edit</button></td></tr><tr><td>3</td><td>hassaan</td><td>6</td><td><button onclick="remove(this);">Delete</button></td><td><button onclick="edit(this);">Edit</button></td></tr><tr><td>4</td><td>rizwan</td><td>5</td><td><button onclick="remove(this);">Delete</button></td><td><button onclick="edit(this);">Edit</button></td></tr><tr><td>5</td><td>syed ali</td><td>12</td><td><button onclick="remove(this);">Delete</button></td><td><button onclick="edit(this);">Edit</button></td></tr><tr><td>6</td><td>saif</td><td>5</td><td><button onclick="remove(this);">Delete</button></td><td><button onclick="edit(this);">Edit</button></td></tr><tr><td>7</td><td>safir</td><td>6</td><td><button onclick="remove(this);">Delete</button></td><td><button onclick="edit(this);">Edit</button></td></tr><tr><td>8</td><td>sami</td><td>9</td><td><button onclick="remove(this);">Delete</button></td><td><button onclick="edit(this);">Edit</button></td></tr><tr><td>9</td><td>Sajid</td><td>1</td><td><button onclick="remove(this);">Delete</button></td><td><button onclick="edit(this);">Edit</button></td></tr><tr><td>10</td><td>haniya</td><td>1</td><td><button onclick="remove(this);">Delete</button></td><td><button onclick="edit(this);">Edit</button></td></tr></table>
+    <button onclick="insertNewData();" id="insertbtn">Insert New Data</button>
+    <script src="script.js"></script>
+</body>
+</html>

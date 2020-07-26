@@ -1,0 +1,14 @@
+.form1{
+    margin: 5px auto !important;
+    padding: 5px;
+    width: fit-content;
+    border: 2px solid black !important;
+}
+#main{
+    padding: 15px !important;
+    text-align: center !important;
+}
+input{
+    padding: 5px !important;
+    margin: 5px !important;
+}
